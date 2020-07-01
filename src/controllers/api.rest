@@ -1,7 +1,7 @@
 @baseUrl = http://localhost:3001
 @contentType = application/json
 
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNTkzNjA5Mjg0LCJleHAiOjE1OTM2MTEwODR9.HleB26pEJaJcuSkpASTZlY2x6fs7G_5mStwE-iiZSfI
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiaWF0IjoxNTkzNjE4MDA2LCJleHAiOjE1OTM2MTk4MDZ9.SCPqfqMbpKpxcPmx03zrTqhV_YAfaXI2dJuz_rmSpI4
 
 
 
@@ -33,6 +33,8 @@ Authorization: Bearer {{token}}
 ### CREATE links
 POST  {{baseUrl}}/link
 Content-Type: {{contentType}}
+Authorization: Bearer {{token}}
+
 
 {
   "label": "Meu site445555",
